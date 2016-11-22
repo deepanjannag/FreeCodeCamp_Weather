@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/creampaper.png");
+    font-family: 'Permanent Marker', cursive;
+    
+}
+#contentRow
+{
+    padding-top: 100px;
+}
+#details span{
+    color:gray;
+    font-size: 0.7em;
+}
+#temp, #details
+{
+    font-family: 'Sofia', cursive;
+}
+#degrees{
+    color: deepskyblue;
+    cursor: pointer;
+}
+.col-md-6 h1
+{
+    color: red;
+}
