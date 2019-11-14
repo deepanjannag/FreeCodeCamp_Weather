@@ -9,7 +9,7 @@ if (navigator.geolocation) {
             document.querySelector('#city').innerHTML = reply.name + ', ' + reply.sys.country;
             document.querySelector('#temp').innerHTML = '<span id="quotedTemperature">' + (reply.main.temp - 273).toFixed(1) + '</span>' + '<span id="degrees" onclick="clicked()"> °C</span>';
             document.querySelector('#details').innerHTML = reply.weather[0].main + ' <span>(' + reply.weather[0].description + ')</span>';
-            document.querySelector('#weatherImage').innerHTML = '<img src="http://openweathermap.org/img/w/' + reply.weather[0].icon + '.png">';
+            document.querySelector('#weatherImage').innerHTML = '<img src="https://openweathermap.org/img/w/' + reply.weather[0].icon + '.png">';
         });
     });
 }
